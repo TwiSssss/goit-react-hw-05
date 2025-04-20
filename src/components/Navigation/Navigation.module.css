@@ -1,0 +1,24 @@
+.navigation {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: #5f5f5f;
+ padding: 15px 0;
+}
+
+.link {
+ text-decoration: none;
+ color: #fff;
+ margin: 0 20px;
+ font-size: 18px;
+ font-weight: 500;
+}
+
+.link:hover {
+ color: #47c5ff; 
+}
+
+.active {
+ color: #47c5ff;
+ font-weight: bold;
+}

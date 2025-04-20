@@ -1,0 +1,12 @@
+.GoBackBtn {
+ display: inline-block;
+ padding: 10px 20px;
+ background-color: #47c5ff;
+ color: white;
+ text-decoration: none;
+ text-align: center;
+
+}
+.GoBackBtn:hover {
+ background-color: #1f19cf; 
+}

@@ -1,0 +1,31 @@
+.section {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.input {
+  padding: 10px 15px;
+  border: 1px solid #d8d8d8;
+  font-size: 16px;
+  flex: 1;
+  min-width: 0;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #47c5ff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+
