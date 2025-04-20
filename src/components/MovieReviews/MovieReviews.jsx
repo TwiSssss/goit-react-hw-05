@@ -13,7 +13,7 @@ const MovieReviews = () => {
         <div>
             <h2>Reviews</h2>
             {loading && <Loader />}
-            {!loading && reviews.length === 0 ? (
+            {reviews && reviews.length === 0 ? (
                 <p className={style.text}>No reviews available for this movie.</p>
             ) : (
                 <ul className={style.list}>
@@ -21,9 +21,7 @@ const MovieReviews = () => {
                         return (
                             <li className={style.item} key={review.id}>
                                 <p className={style.text}>{review.author}</p>
-                                <p className={style.text}>
-                                    {stripHTML(review.content)}
-                                </p>
+                                <p className={style.text}>{stripHTML(review.content)}</p>
                             </li>
                         );
                     })}
